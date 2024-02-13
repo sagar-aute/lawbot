@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './App.css';
-import FileUpload from './FileUpload';
-import PdfPreview from './PdfPreview';
-import Chat from './Chat';
+import FileUpload from './components/FileUpload';
+import PdfPreview from './components/PdfPreview';
+import Chat from './components/Chat';
 
 function App() {
   const [selectedFile, setSelectedFile] = useState(null);

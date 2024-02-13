@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import FileUpload from './FileUpload';
 import PdfPreview from './PdfPreview';
+import Chat from './Chat';
 
 function App() {
   const [selectedFile, setSelectedFile] = useState(null);
@@ -15,10 +16,14 @@ function App() {
       <header className="App-header">
         <h1>PDF Preview</h1>
         <FileUpload onFileUpload={handleFileUpload} />
+        <main className="App-main">
+          {selectedFile && <PdfPreview pdfUrl={selectedFile} />}
+        </main>
       </header>
-      <main className="App-main">
-        {selectedFile && <PdfPreview pdfUrl={selectedFile} />}
-      </main>
+      <div className="Chat">
+        <h1>React Chat Interface</h1>
+        <Chat />
+      </div>
     </div>
   );
 }

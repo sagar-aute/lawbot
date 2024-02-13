@@ -1,9 +1,9 @@
 # lawbot
 
-## Download Zip
+### Download Zip
 
-## cd .\pdf-preview-app
+cd .\pdf-preview-app
 
-## npm install
+npm install
 
-## npm start
+npm start

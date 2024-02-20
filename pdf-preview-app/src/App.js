@@ -21,7 +21,7 @@ function App() {
         </main>
       </header>
       <div className="Chat">
-        <h1>React Chat Interface</h1>
+        <h1>Chat Interface</h1>
         <Chat />
       </div>
     </div>

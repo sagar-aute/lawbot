@@ -8,7 +8,6 @@ const Chat = () => {
 
   const handleSendMessage = () => {
     if (inputText.trim() !== '') {
-      // User sends a message
       const userMessage = { text: inputText, sender: 'user' };
       const lawbotResponse = {
         text: getLawbotResponse(inputText),
@@ -21,7 +20,6 @@ const Chat = () => {
   };
 
   const getLawbotResponse = (userInput) => {
-    // Simple logic for lawbot response based on user input
     const lowerCaseInput = userInput.toLowerCase();
 
     if (lowerCaseInput.includes('legal advice')) {

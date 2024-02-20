@@ -1,6 +1,6 @@
 /* .pdf-preview CSS */
 .pdf-preview {
-  width: 100%;
+  width: 98%;
   height: 70vh;
   border: 1px solid #6b6464;
   display: flex;
@@ -10,6 +10,7 @@
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin-top: 5px;
+  margin-left: 3px;
   overflow: auto;
 }
 
